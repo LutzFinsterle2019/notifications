@@ -60,8 +60,7 @@ define(function () {
 						return this.userLocalTemplate(parameter);
 					}
 
-					this.userRemoteTemplate = this._userRemoteTemplate;
-
+					
 					return this.userRemoteTemplate(parameter);
 
 				default:
